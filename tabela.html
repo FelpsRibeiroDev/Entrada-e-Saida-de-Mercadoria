@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Peças</title>
+    <link rel="stylesheet" href="styleLabel.css">
+</head>
+<body>
+    <div class="tabela-container">
+        <img src="" alt="Logo da Empresa" class="logo">
+        <h2>Tabela de Peças Registradas</h2>
+        
+        <input type="text" id="filtroNome" placeholder="Pesquisar por nome...">
+        <button onclick="filtrarTabela()">Filtrar</button>
+        
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Nome da Peça</th>
+                    <th>Quantidade</th>
+                    <th>Funcionário</th>
+                    <th>Data e Hora</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <button onclick="window.location.href='home.html';">Voltar para a Página anterior</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
